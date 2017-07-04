@@ -1,3 +1,5 @@
+<?php
+
 namespace Igorludgero\Brandlist\Model;
 
 class ImageUploader

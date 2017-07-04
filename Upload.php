@@ -1,3 +1,5 @@
+<?php
+
 namespace Igorludgero\Brandlist\Controller\Adminhtml\Brand;
 
 use Magento\Framework\Controller\ResultFactory;
