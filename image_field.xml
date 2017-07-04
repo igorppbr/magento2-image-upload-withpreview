@@ -1,0 +1,18 @@
+<field name="image">
+    <argument name="data" xsi:type="array">
+        <item name="config" xsi:type="array">
+            <item name="source" xsi:type="string">brand</item>
+            <item name="sortOrder" xsi:type="number">6</item>
+            <item name="label" xsi:type="string">Image</item>
+            <item name="visible" xsi:type="boolean">true</item>
+            <item name="formElement" xsi:type="string">fileUploader</item>
+            <item name="elementTmpl" xsi:type="string">ui/form/element/uploader/uploader</item>
+            <item name="previewTmpl" xsi:type="string">Magento_Catalog/image-preview</item>
+            <item name="required" xsi:type="boolean">false</item>
+            <item name="dataScope" xsi:type="string">image</item>
+            <item name="uploaderConfig" xsi:type="array">
+                <item name="url" xsi:type="url" path="brandlist/brand/upload"/>
+            </item>
+        </item>
+    </argument>
+</field>

@@ -1,0 +1,17 @@
+<type name="Igorludgeri\Brandlist\Controller\Adminhtml\Brand\Upload">
+    <arguments>
+        <argument name="imageUploader" xsi:type="object">Igorludgero\Brandlist\Brandimage</argument>
+    </arguments>
+</type>
+<virtualType name="Igorludgero\Brandlist\Brandimage" type="Igorludgero\Brandlist\Model\ImageUploader">
+    <arguments>
+        <argument name="baseTmpPath" xsi:type="string">igorludgero/brands/tmp</argument>
+        <argument name="basePath" xsi:type="string">igorludgero/brands</argument>
+        <argument name="allowedExtensions" xsi:type="array">
+            <item name="jpg" xsi:type="string">jpg</item>
+            <item name="jpeg" xsi:type="string">jpeg</item>
+            <item name="gif" xsi:type="string">gif</item>
+            <item name="png" xsi:type="string">png</item>
+        </argument>
+    </arguments>
+</virtualType>
